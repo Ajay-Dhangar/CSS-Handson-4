@@ -1,0 +1,132 @@
+h1 {
+  text-align: center;
+  background-image: linear-gradient(
+    to left,
+    yellow,
+    rgb(162, 255, 0),
+    rgb(53, 204, 53),
+    green,
+    red
+  );
+}
+.heading-1 {
+  text-align: center;
+  height: 50px;
+  text-decoration: underline;
+  background-image: linear-gradient(to left, red, yellow, red);
+}
+.container-1 {
+  border: 3px solid red;
+  border-radius: 20px;
+  width: 80%;
+  background-color: rgb(135, 180, 182);
+
+  margin-left: 10%;
+}
+ul {
+  width: 35%;
+
+  margin-left: 30%;
+  text-align: center;
+}
+li {
+  font-weight: bold;
+}
+.container-2 {
+  background-color: lightgrey;
+  border: 1px solid red;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+.col-2 {
+  width: 400px;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 10px;
+}
+.container-3 {
+  background-image: linear-gradient(
+    to left,
+
+    rgb(150, 175, 10),
+    rgb(151, 151, 207),
+    rgb(113, 113, 199),
+    rgb(36, 31, 132),
+    rgb(109, 109, 195),
+    rgb(151, 151, 207),
+    rgb(92, 166, 9)
+  );
+  border: 2px solid red;
+  border-radius: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+.col-3 {
+  width: 200px;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin: 25px;
+  text-align: center;
+  text-decoration: underline;
+  line-height: 30px;
+  font-weight: bold;
+  background-color: yellow;
+}
+p {
+  font-weight: bold;
+}
+.heading-2 {
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  height: 40px;
+}
+.heading-3 {
+  text-align: center;
+  background-color: rgb(111, 107, 195);
+}
+.container-4 {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.grid_item-1 {
+  background-color: rgb(111, 221, 111);
+  color: #fff;
+  width: 350px;
+  text-align: center;
+  display: flex;
+}
+.grid_item-2 {
+  background-color: rgb(111, 118, 221);
+  color: #fff;
+  width: 350px;
+  text-align: center;
+  margin-left: 57px;
+}
+.grid_item-3 {
+  background-color: rgb(72, 49, 172);
+  color: #fff;
+  width: 350px;
+  text-align: center;
+  margin-left: 57px;
+}
+.grid_item-4 {
+  background-color: rgb(184, 232, 54);
+  color: #fff;
+  margin-top: 10px;
+  text-align: center;
+}
+.grid_item-5 {
+  background-color: #000;
+  color: #fff;
+}
